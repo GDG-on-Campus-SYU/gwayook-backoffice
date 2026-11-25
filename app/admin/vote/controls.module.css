@@ -1,0 +1,23 @@
+.choice {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+  min-height: 44px;
+  padding-block: 10px;
+  cursor: pointer;
+}
+
+.choice input {
+  margin: 3px 0 0;
+}
+
+.choice > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.candidateMeta {
+  display: block;
+  margin-top: 4px;
+}

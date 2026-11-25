@@ -1,0 +1,43 @@
+.controls {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-inline-size: 0;
+}
+
+.controls input {
+  max-inline-size: 100%;
+}
+
+.mapping {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1rem;
+}
+
+.mapping select {
+  min-inline-size: 0;
+  inline-size: 100%;
+}
+
+.previewTable { min-inline-size: 52rem; }
+
+.previewTable th,
+.previewTable td {
+  padding: 0.625rem;
+  text-align: start;
+  vertical-align: top;
+}
+
+.previewTable th,
+.previewTable td:nth-child(-n + 2) {
+  white-space: nowrap;
+}
+
+.errors ul {
+  margin-block: 0.375rem 0;
+  padding-inline-start: 1.5rem;
+  list-style: disc;
+}

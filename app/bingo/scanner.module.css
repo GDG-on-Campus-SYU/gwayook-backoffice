@@ -1,0 +1,11 @@
+.scanner { border-top: 4px solid var(--brand-sky); }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; }
+.layout > div, .controls { min-width: 0; }
+.controls > button { width: 100%; white-space: normal; }
+.preview { overflow: hidden; border-radius: 8px; background: var(--ink); }
+.preview video { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
+.code { min-width: 0; width: 100%; font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+.error { color: var(--brand-red); font-size: 14px; overflow-wrap: anywhere; }
+@media (min-width: 768px) {
+  .layout { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+}

@@ -1,0 +1,17 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
+.vercel/
+supabase/.branches/
+supabase/.temp/
+.local-pg-verification/
+output/
+*.csv
+*.xlsx
+docs/**/*.png
+docs/**/*.jpg
+docs/**/*.pdf
+docs/*-20??-??-??.*

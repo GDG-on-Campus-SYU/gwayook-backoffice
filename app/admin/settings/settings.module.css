@@ -1,0 +1,25 @@
+.form { gap: 28px; }
+
+.staffFields {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.group {
+  display: grid;
+  gap: 20px;
+  min-inline-size: 0;
+  margin: 0;
+  padding: 20px 0 0;
+  border: 0;
+  border-block-start: 1px solid var(--line);
+}
+
+.group legend {
+  padding-inline-end: 12px;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 600;
+}
